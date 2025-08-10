@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+venv/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dados sensíveis ou pesados
+artifacts/
+!artifacts/.gitkeep
+data/
+!data/.gitkeep
+
+# Logs
+*.log
+*.jsonl
+
+# Docker
+*.pid
